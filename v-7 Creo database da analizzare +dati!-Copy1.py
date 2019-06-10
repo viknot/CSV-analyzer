@@ -1,6 +1,8 @@
 #!/usr/bin/env python
 # coding: utf-8
 
+# ************** INPUTS START **************
+
 # # <center> PV PLANTS ANALYSIS [TETTOIA FV1] </center>
 
 #  <img src="Dataset e immagini\gfv13ds.PNG">
@@ -53,6 +55,10 @@ coeff_alfa=0.07/100 #*Imp_mod/Isc_mod #Coeff di I modificato
 # Vmp | Vmp_str | Vmp_to_inv
 # Imp | Imp_str | Imp_to_inv
 
+
+# ************** INPUTS END **************
+
+
 # ## LIBRERIE 
 
 # In[3]:
@@ -61,8 +67,6 @@ coeff_alfa=0.07/100 #*Imp_mod/Isc_mod #Coeff di I modificato
 import numpy as np
 import pandas as pd
 from datetime import datetime, date
-import time
-start = time.time()
 import matplotlib.pyplot as plt
 import seaborn as sns
 import matplotlib.patches as patches
@@ -398,27 +402,6 @@ time_span1=widgets.interact(day_analysis,
 # In[ ]:
 
 
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[26]:
-
-
-aaaa
-
-
 # # Preparazione dati
 
 # * **Imposto il nuovo database:**
@@ -448,7 +431,7 @@ path_to_dir=r"C:\Users\BARONE\AppData\Local\Programs\Python\Python37-32\Scripts\
 # In[42]:
 
 
-crea_file='si'
+crea_file='no'
 
 
 # In[43]:
@@ -475,103 +458,3 @@ else:
 
 
 # In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-

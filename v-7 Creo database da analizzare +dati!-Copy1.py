@@ -9,31 +9,28 @@
 
 # In[1]:
 
-
+# *** Livello moduli ***
+# Tensioni e Correnti oc,sc
 Voc_mod=23.63 #V
 Isc_mod=8.67 #A
 Vmp_mod=18.93 #V
 Imp_mod=8.19 #A
-
-#Livello moduli
 moduli_stringa=24
 
-#Max power point
+# *** Livello stringa ***
+n_stringhe_inverter=2
+# Max power point
 Vmp_str=Vmp_mod*moduli_stringa #V
 Imp_str=Imp_mod #A
-
-#Max intensity
+# Max values for Voc and Isc at string level
 Voc_str=Voc_mod*moduli_stringa #V
 Isc_str=Isc_mod #A
 
-#Livello stringa
-n_stringhe_inverter=2
-
+# *** Livello inverter ***
 #Max power point
 Vmp_to_inv=Vmp_str
 Imp_to_inv=Imp_str*n_stringhe_inverter
-
-#Max intensity
+#Max values for Voc and Isc at inverter level
 Voc_to_inv=Voc_str
 Isc_to_inv=Isc_str*n_stringhe_inverter
 
